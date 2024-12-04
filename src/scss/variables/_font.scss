@@ -1,0 +1,45 @@
+/*==================================
+=            Typography            =
+==================================*/
+
+/**
+	Define here all the typographies and sizes of the web fonts. We can use HTML tags directly or conceptual terms like title, lead...
+**/
+
+$font-family-basic: (
+  open-sans: (
+    "Open Sans",
+    sans-serif,
+  ),
+  chronicle-display: (
+    "Chronicle Display",
+    sans-serif,
+  ),
+  gilroy-bold: (
+    "Gilroy",
+    sans-serif,
+  ),
+);
+$font-family: (
+  default: map-get($font-family-basic, open-sans),
+  primary: map-get($font-family-basic, chronicle-display),
+  secondary: map-get($font-family-basic, gilroy-bold),
+);
+$font-size: (
+  html: 16px,
+  // body: rem-calc(18),
+  subtitle: rem-calc(64),
+  category: rem-calc(18),
+  title: rem-calc(88),
+  paragraph: rem-calc(12),
+  number: rem-calc(240),
+);
+
+$font-weight: (
+  extraBold: 900,
+  bold: 800,
+  semiBold: 700,
+  medium: 500,
+  regular: 400,
+  light: 300,
+);

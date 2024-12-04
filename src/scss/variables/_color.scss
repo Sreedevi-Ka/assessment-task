@@ -1,0 +1,32 @@
+/*=====================================
+=            Pantone		          =
+=====================================*/
+/*
+	Here there are all the colors that will be present in the Web. 
+	
+	NEVER include them colors directly in your scss files. You should create in the Colors sections 
+	all the links to those colors and include them instead
+	
+	The names are generated from http://www.color-blindness.com/color-name-hue/
+*/
+
+$pantone: (
+  pacific-blue: #019ada,
+  normal-white: #fff,
+  golden-glow: #fbd784,
+  tiber-green: #OB1D26,
+);
+/*=====================================
+=            Colors           		 =
+=====================================*/
+/* 
+	Here we decide the "conceptual" colors of the WEB. It englobes concepts as primary, secondary, tertiary, text, selected, lead, title, background...
+	
+	TRY NOT TO put here colors referencing Components or HTML tags (such as h1, h2, tbody, nav, user-form...). 
+	
+	This colors can be included in scss files althought we can create intermediate colors referencing this ones if we need so.
+*/
+$color: (
+  primary: map-get($pantone, normal-white),
+  secondary: map-get($pantone, golden-glow),
+);

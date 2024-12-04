@@ -1,0 +1,15 @@
+{
+  "attr-value-not-empty": true,
+  "attr-lowercase": true,
+  "inline-style-disabled": true,
+  "alt-require": true,
+  "title-require": true,
+  "attr-no-duplication": true,
+  "inline-script-disabled": true,
+  "style-disabled": true,
+  "tag-pair": true,
+  "tagname-lowercase": true,
+  "attr-no-unnecessary-whitespace": true,
+  "tags-check": true,
+  "src-not-empty": true
+}

@@ -1,0 +1,45 @@
+{
+  "name": "vite-boilerplate-0.1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix .",
+    "format": "prettier --write .",
+    "prepare": "husky install",
+    "html-hint": "htmlhint **/*.html --ignore=**/node_modules/**,**/dist/**",
+    "sonar": "sonar-scanner"
+  },
+  "devDependencies": {
+    "@rollup/plugin-inject": "^5.0.3",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "htmlhint": "^1.1.4",
+    "husky": "^8.0.0",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
+    "sass": "1.62.1",
+    "vite": "^4.3.2",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-imagemin": "^0.6.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.3",
+    "fs-extra": "^11.1.1",
+    "jquery": "^3.6.4",
+    "sonarqube-scanner": "^3.0.1",
+    "swiper": "^9.3.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 0.25%"
+  ]
+}

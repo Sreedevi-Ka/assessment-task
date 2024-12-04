@@ -1,0 +1,27 @@
+.header {
+  .luminance-mask {
+    mask-type: luminance;
+  }
+  &__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 80px;
+  }
+  &__nav-item {
+    font-size: font-size(category);
+    font-weight: font-weight(semiBold);
+    font-family: font-family(secondary);
+  }
+  &__nav-link {
+    color: color(primary);
+  }
+  &__profile {
+    &-name {
+      color: color(primary);
+      font-size: font-size(category);
+      font-family: font-family(secondary);
+      font-weight: font-weight(bold);
+    }
+  }
+}

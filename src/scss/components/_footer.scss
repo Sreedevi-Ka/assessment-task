@@ -1,0 +1,59 @@
+.footer {
+  background-color: #0b1c2c; // Dark background color
+  color: #fff; // Text color
+
+  &__content {
+    padding: 40px 0;
+  }
+
+  &__brand {
+    .footer__title {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    .footer__description {
+      margin: 10px 0;
+      font-size: 1rem;
+      color: #d4d4d4;
+    }
+    .footer__copyright {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #d4d4d4;
+
+      .footer__link {
+        color: #d4d4d4;
+        text-decoration: underline;
+
+        &:hover {
+          color: #f7c700; // Hover color
+        }
+      }
+    }
+  }
+
+  &__links {
+    .footer__subtitle {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #f7c700; // Yellow heading
+    }
+    .footer__list {
+      list-style: none;
+      padding: 0;
+
+      .footer__item {
+        margin-bottom: 8px;
+
+        .footer__link {
+          color: #d4d4d4;
+          text-decoration: none;
+
+          &:hover {
+            color: #f7c700; // Hover color
+          }
+        }
+      }
+    }
+  }
+}
