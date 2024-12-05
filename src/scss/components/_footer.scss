@@ -1,58 +1,41 @@
 .footer {
-  background-color: #0b1c2c; // Dark background color
-  color: #fff; // Text color
-
-  &__content {
-    padding: 40px 0;
-  }
+  background-color: #0b1c2c;
+  color: #fff;
 
   &__brand {
-    .footer__title {
-      font-size: 1.8rem;
-      font-weight: bold;
-    }
+    display: flex;
+    line-height: 32px;
+    color: color(primary);
+
     .footer__description {
-      margin: 10px 0;
-      font-size: 1rem;
-      color: #d4d4d4;
+      font-size: font-size(category);
+      font-weight: font-weight(semiBold);
     }
     .footer__copyright {
-      margin-top: 20px;
-      font-size: 0.9rem;
-      color: #d4d4d4;
-
+      font-size: font-size(category);
+      font-weight: font-weight(medium);
       .footer__link {
-        color: #d4d4d4;
-        text-decoration: underline;
-
-        &:hover {
-          color: #f7c700; // Hover color
-        }
+        color: color(primary);
       }
     }
   }
 
   &__links {
     .footer__subtitle {
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: #f7c700; // Yellow heading
+      font-size: font-size(link);
+      font-weight: font-weight(semiBold);
+      color: color(secondary);
     }
     .footer__list {
+      font-size: font-size(category);
+      font-weight: font-weight(medium);
+      color: color(primary);
       list-style: none;
-      padding: 0;
 
-      .footer__item {
+      &-item {
         margin-bottom: 8px;
 
-        .footer__link {
-          color: #d4d4d4;
-          text-decoration: none;
-
-          &:hover {
-            color: #f7c700; // Hover color
-          }
-        }
+        color: color(primary);
       }
     }
   }

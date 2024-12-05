@@ -1,4 +1,6 @@
 .banner {
+  height: 1350px;
+  background-image: url(".png");
   display: flex;
   justify-content: center;
   position: relative;
@@ -41,5 +43,10 @@
   }
   &__scroll-text {
     color: color(primary);
+  }
+}
+@media (max-width: 768px) {
+  .banner__content {
+    padding: 1rem;
   }
 }
