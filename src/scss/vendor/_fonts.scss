@@ -11,19 +11,32 @@
 }
 @font-face {
   font-family: "chronicle-display";
-  src: url("../fonts/chronicle-display-semibold.otf") format("opentruetype");
+  src: url("../../fonts/chronicle-display-semibold.otf") format("opentruetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "gilroy-bold";
-  src: url("../fonts/gilroy-bold.ttf") format("truetype");
-  font-weight: 700;
+  font-family: "Gilroy";
+  src: url("../../fonts/Gilroy-Regular.ttf") format("ttf");
+  font-weight: 400;
   font-style: normal;
-  font-display: swap;
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../fonts/Gilroy-Medium.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chronicle Display";
+  src: url("../../fonts/chronicle-display-regular.woff2") format("woff2"),
+    url("../../fonts/chronicle-display-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 [class^="icon-"],
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
