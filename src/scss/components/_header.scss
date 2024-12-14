@@ -82,9 +82,11 @@
       font-weight: font-weight(bold);
     }
   }
-}
-@media (max-width: 768px) {
-  .header__navbar {
-    flex-direction: column;
+  @media (max-width: 768px) {
+    &__navbar {
+      flex-direction: column;
+      padding: 65px 0px;
+      gap: 20px;
+    }
   }
 }

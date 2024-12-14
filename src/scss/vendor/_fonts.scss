@@ -25,17 +25,23 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url("../../fonts/Gilroy-Medium.ttf") format("ttf");
+  src: url("../../fonts/Gilroy-SemiBold.ttf") format("ttf");
   font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../fonts/Gilroy-Bold.ttf") format("ttf");
+  font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Chronicle Display";
-  src: url("../../fonts/chronicle-display-regular.woff2") format("woff2"),
-    url("../../fonts/chronicle-display-regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
+  src: url("../../fonts/Chronicle\ Display\ Semibold.otf")
+    format("opentruetype");
+  font-weight: 700;
+  font-style: semiBold;
 }
 [class^="icon-"],
 [class*=" icon-"] {

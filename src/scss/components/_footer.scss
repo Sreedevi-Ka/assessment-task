@@ -1,42 +1,64 @@
 .footer {
-  background-color: #0b1c2c;
-  color: #fff;
+  padding: 229px;
+  background-color: #0b1d26;
 
+  font-family: font-family(secondary);
   &__brand {
     display: flex;
     line-height: 32px;
     color: color(primary);
   }
   &__description {
+    color: color(primary);
+    line-height: 32px;
+    margin-top: 24px;
+
     font-size: font-size(category);
     font-weight: font-weight(semiBold);
   }
   &__copyright {
     font-size: font-size(category);
     font-weight: font-weight(medium);
-    a{
+    color: color(primary);
+    opacity: 50%;
+    a {
       color: color(primary);
     }
   }
-&__content{
-  &-subtitle{
-    font-size: font-size(link);
-    font-weight: font-weight(semiBold);
-    color: color(secondary);
-  }
-  &-list{
-    font-size: font-size(category);
+  &__content {
+    &-subtitle {
+      font-size: font-size(link);
+      font-weight: font-weight(semiBold);
+      color: color(secondary);
+    }
+    &-list {
+      font-size: font-size(category);
       font-weight: font-weight(medium);
       color: color(primary);
       list-style: none;
-      a{
+      a {
         margin-bottom: 8px;
 
         color: color(primary);
       }
-
+    }
+    &-item {
+      font-size: font-size(category);
+      font-weight: font-weight(medium);
+      line-height: 32px;
+    }
   }
+  @media (max-width: 768px) {
+    padding: 0;
 
-}
-  
+    &__left {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    &__right {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
 }
